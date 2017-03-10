@@ -16,6 +16,7 @@ class AboutController extends AppController
      */
     public function index()
     {
-        return $this->render('view::About/about.html.php');
+        $flash = session()->getFlashBag()->all();
+        return $this->render('view::About/about.html.php', ['flash' => $flash]);
     }
 }

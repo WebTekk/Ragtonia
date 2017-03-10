@@ -234,8 +234,8 @@ function dispatch(Request $request, Response $response, RouteCollection $routes)
     $request->attributes->add($match);
 
     //try {
-        // Call event
-        $action = $match['controller'];
+    // Call event
+    $action = $match['controller'];
 
     $parts = explode(':', $action);
     $object = new $parts[0]();
@@ -429,4 +429,15 @@ function rrmdir($delete)
         (is_dir("$delete/$file")) ? rrmdir("$delete/$file") : unlink("$delete/$file");
     }
     return rmdir($delete);
+}
+
+function getLastRoute()
+{
+    $request = request();
+    $ref = $request->headers->get("referer");
+
+    $expRef = explode('/', $ref);
+    $lastRoute = $expRef[count($expRef) - 1];
+    $newRoute = '/' . $lastRoute;
+    return $newRoute;
 }

@@ -42,6 +42,8 @@ class AppController
         $route = $request->attributes->get("_route");
         $ip = $request->server->get("REMOTE_ADDR");
 
+
+
         if ($route != '/contact' && $session->get('last_activity') < time() - 600) {
             $session->set('last_activity', time());
             return $this->redirect("/");
