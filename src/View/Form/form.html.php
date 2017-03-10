@@ -145,97 +145,8 @@ $this->stop(); ?>
         </div>
     </div>
     <br>
-    <div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <div>
-                    <p style="font-size: medium"><?= $this->e(__("Möchten sie telefonisch kontaktiert werden?")) ?></p>
-                    <div class="radio">
-                        <label><input type="radio" name="optradio"
-                                      value="ja" <?php echo ($this->value('data.optradio') == "ja") ?
-                                'checked="checked"' : ''
-                            ?> ><?= $this->e(__("Ja")) ?></label>
-                        <label><input type="radio" name="optradio"
-                                      value="nein" <?php echo ($this->value('data.optradio') == "nein") ?
-                                'checked="checked"' : ''
-                            ?> ><?= $this->e(__("Nein")) ?></label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="form-group">
-            <label for="comment"
-                   class="col-md-2 control-label"><?= $this->e(__("Wann sollen wir Sie kontaktieren?")) ?></label>
-            <div class="col-lg-7">
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox1" name="option1"
-                           value="option1" <?php echo ($this->value('data.option1')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("Montag")) ?>
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox2" name="option2"
-                           value="option2" <?php echo ($this->value('data.option2')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("Dienstag")) ?>
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox3" name="option3"
-                           value="option3" <?php echo ($this->value('data.option3')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("Mittwoch")) ?>
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox4" name="option4"
-                           value="option4" <?php echo ($this->value('data.option4')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("Donnerstag")) ?>
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox5" name="option5"
-                           value="option5" <?php echo ($this->value('data.option5')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("Freitag")) ?>
-                </label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-7">
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox6" name="option6"
-                           value="option6" <?php echo ($this->value('data.option6')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("9:00 -
-                            12:00 Uhr")) ?>
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox7" name="option7"
-                           value="option7" <?php echo ($this->value('data.option7')) ?
-                        "checked='checked'" : ''
-                    ?>> <?= $this->e(__("13:00 -
-                            17:00 Uhr")) ?>
-                </label>
-            </div>
-            <div class="col-lg-3"></div>
-        </div>
-    </div>
     <div class="form-group">
         <div class="col-md-2"></div>
-        <div class="col-md-10">
-            <?php if (!empty($this->value('errors.checkbox'))) : ?>
-                <div class="alert alert-danger" role="alert">
-                    <span class="help-block"><?php $this->wh('errors.checkbox'); ?></span>
-                </div>
-            <?php endif; ?>
-            <?php if (!empty($this->value('errors.checkbox2'))) : ?>
-                <div class="alert alert-danger" role="alert">
-                    <span class="help-block"><?php $this->wh('errors.checkbox2'); ?></span>
-                </div>
-            <?php endif; ?>
-        </div>
-    </div>
-    <div class="form-group">
         <div class="col-md-4">
             <label class="btn btn-primary btn-file">
                 <input type="file" name="fileToUpload" id="fileToUpload" value="">
@@ -251,6 +162,8 @@ $this->stop(); ?>
                 </div>
             <?php endif; ?>
         </div>
+        <div class="col-md-4"></div>
+        <button type="submit" name="send" class="btn btn-success col-md-2">Senden</button>
     </div>
-    <button type="submit" name="send" class="btn btn-success send-btn">Senden</button>
+
 </form>
