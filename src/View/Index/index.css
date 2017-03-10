@@ -1,0 +1,13 @@
+#httpPopup {
+    background-color: #96dd3b;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.httpsText {
+    text-align: center;
+    font-size: large;
+    padding-top: 10px
+}

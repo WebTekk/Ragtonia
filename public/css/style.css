@@ -1,0 +1,39 @@
+html {
+    background-image: url("background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-y: scroll;
+}
+
+body {
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+.help-block {
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.alert {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+@media screen and (max-width: 767px) {
+    .float-right {
+        float: none;
+    }
+}

@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KontaktFormular\n"
+"POT-Creation-Date: 2017-03-06 09:16+0100\n"
+"PO-Revision-Date: 2017-03-06 09:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../src\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/ContactController.php:31
+msgid "Vielen Dank. Wir werden Sie schnellstmöglich kontaktieren."
+msgstr "Vielen Dank. Wir werden Sie schnellstmöglich kontaktieren."
+
+#: Service/Contact/ContactForm.php:36
+msgid "Bitte überprüfen Sie Ihre Eingabe"
+msgstr "Bitte überprüfen Sie Ihre Eingabe"
+
+#: Service/Contact/ContactFormValidation.php:153
+msgid "Bitte wählen Sie um welche Zeit Sie kontaktiert werden möchten"
+msgstr "Bitte wählen Sie um welche Zeit Sie kontaktiert werden möchten"
+
+#: Service/Contact/ContactFormValidation.php:190
+msgid "Bitte wählen Sie an welchem Tag Sie kontaktiert werden möchten"
+msgstr "Bitte wählen Sie an welchem Tag Sie kontaktiert werden möchten"
+
+#: Service/Contact/ContactFormValidation.php:232
+msgid "Diese Postleitzahl existiert in diesem Land nicht!"
+msgstr "Diese Postleitzahl existiert in diesem Land nicht!"
+
+#: Service/Contact/ContactFormValidation.php:252
+msgid "PLZ ungültig"
+msgstr "PLZ ungültig"
+
+#: Service/Contact/ContactFormValidation.php:269
+#: Service/Contact/ContactFormValidation.php:286
+#: Service/Contact/ContactFormValidation.php:307
+#: Service/Contact/ContactFormValidation.php:328
+msgid "fehlt"
+msgstr "fehlt"
+
+#: Service/Contact/ContactFormValidation.php:290
+msgid "falsches E-Mail Format"
+msgstr "falsches E-Mail Format"
+
+#: Service/Contact/ContactFormValidation.php:311
+msgid "zu kurz"
+msgstr "zu kurz"
+
+#: Service/Contact/ContactFormValidation.php:332
+msgid "zu  kurz"
+msgstr "zu kurz"
+
+#: View/Form/form.html.php:31 View/Form/form.html.php:34
+msgid "Name"
+msgstr "Name"
+
+#: View/Form/form.html.php:42 View/Form/form.html.php:45
+msgid "Vorname"
+msgstr "Vorname"
+
+#: View/Form/form.html.php:55 View/Form/form.html.php:58
+msgid "Strasse"
+msgstr "Strasse"
+
+#: View/Form/form.html.php:60
+msgid "Nr."
+msgstr "Nr."
+
+#: View/Form/form.html.php:63
+msgid "Hausnummer"
+msgstr "Hausnummer"
+
+#: View/Form/form.html.php:68 View/Form/form.html.php:71
+msgid "PLZ"
+msgstr "PLZ"
+
+#: View/Form/form.html.php:79 View/Form/form.html.php:82
+msgid "Ort"
+msgstr "Ort"
+
+#: View/Form/form.html.php:89 View/Form/form.html.php:92
+msgid "Land"
+msgstr "Land"
+
+#: View/Form/form.html.php:99
+msgid "Handy"
+msgstr "Handy"
+
+#: View/Form/form.html.php:102
+msgid "Handy Nummer"
+msgstr "Handy Nummer"
+
+#: View/Form/form.html.php:109 View/Form/form.html.php:112
+msgid "Email"
+msgstr "Email"
+
+#: View/Form/form.html.php:122 View/Form/form.html.php:125
+msgid "Nachricht"
+msgstr "Nachricht"
+
+#: View/Form/form.html.php:142
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: View/Form/form.html.php:152
+msgid "Möchten sie telefonisch kontaktiert werden?"
+msgstr "Möchten sie telefonisch kontaktiert werden?"
+
+#: View/Form/form.html.php:157
+msgid "Ja"
+msgstr "Ja"
+
+#: View/Form/form.html.php:161
+msgid "Nein"
+msgstr "Nein"
+
+#: View/Form/form.html.php:169
+msgid "Wann sollen wir Sie kontaktieren?"
+msgstr "Wann sollen wir Sie kontaktieren?"
+
+#: View/Form/form.html.php:175
+msgid "Montag"
+msgstr "Montag"
+
+#: View/Form/form.html.php:181
+msgid "Dienstag"
+msgstr "Dienstag"
+
+#: View/Form/form.html.php:187
+msgid "Mittwoch"
+msgstr "Mittwoch"
+
+#: View/Form/form.html.php:193
+msgid "Donnerstag"
+msgstr "Donnerstag"
+
+#: View/Form/form.html.php:199
+msgid "Freitag"
+msgstr "Freitag"
+
+#: View/Form/form.html.php:209
+msgid ""
+"9:00 -\n"
+"                            12:00 Uhr"
+msgstr ""
+"9:00 -\n"
+"                            12:00 Uhr"
+
+#: View/Form/form.html.php:216
+msgid ""
+"13:00 -\n"
+"                            17:00 Uhr"
+msgstr ""
+"13:00 -\n"
+"                            17:00 Uhr"
+
+#: View/Layout/layout.html.php:68
+msgid "Home"
+msgstr "Home"
+
+#: View/Layout/layout.html.php:73
+msgid "Contact"
+msgstr ""
+
+#: View/Layout/layout.html.php:78
+msgid "Über mich"
+msgstr ""
+
+#: View/Layout/layout.html.php:86
+msgid "Sprache"
+msgstr "Sprache"
+
+#~ msgid "Der Benutzer \"%s\" wurde entfernt"
+#~ msgstr "Der Benutzer \"%s\" wurde entfernt"
+
+#~ msgid "Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein."
+#~ msgstr "Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein."
+
+#~ msgid "Passwort oder Benutzername ungültig."
+#~ msgstr "Passwort oder Benutzername ungültig."
+
+#~ msgid "Benutzer \"%s\" wurde hinzugefügt"
+#~ msgstr "Benutzer \"%s\" wurde hinzugefügt"
+
+#~ msgid "Benutzername existiert bereits"
+#~ msgstr "Benutzername existiert bereits"
+
+#~ msgid "Fehler bei Benutzername oder passwort"
+#~ msgstr "Fehler bei Benutzername oder passwort"
+
+#~ msgid "Es sind nur pdf Dateien erlaubt"
+#~ msgstr "Es sind nur pdf Dateien erlaubt"
+
+#~ msgid "Benutzername"
+#~ msgstr "Benutzername"
+
+#~ msgid "Passwort"
+#~ msgstr "Passwort"
+
+#~ msgid "Admin"
+#~ msgstr "Admin"
+
+#~ msgid "Benutzer hinzufügen"
+#~ msgstr "Benutzer hinzufügen"
+
+#~ msgid "Rang"
+#~ msgstr "Rang"
+
+#~ msgid "Hinzugefügt von"
+#~ msgstr "Hinzugefügt von"
+
+#~ msgid "Problem"
+#~ msgstr "Problem"
+
+#~ msgid "IP Adresse"
+#~ msgstr "IP Adresse"
+
+#~ msgid "Sicherheit"
+#~ msgstr "Sicherheit"
+
+#~ msgid "Bugs"
+#~ msgstr "Bugs"
+
+#~ msgid "Bedienung"
+#~ msgstr "Bedienung"
+
+#~ msgid "Pebcak"
+#~ msgstr "Pebcak"
+
+#~ msgid "sonstiges"
+#~ msgstr "sonstiges"
+
+#~ msgid "Einloggen"
+#~ msgstr "Einloggen"
+
+#~ msgid "Diese Website ist als HTTPS verfügbar:"
+#~ msgstr "Diese Website ist als HTTPS verfügbar:"
+
+#~ msgid "Ausloggen"
+#~ msgstr "Ausloggen"
+
+#~ msgid "Kontaktformular"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Neuste Error Logs"
+#~ msgstr "Neuste Error Logs"
+
+#~ msgid "Neuste IP Logs"
+#~ msgstr "Neuste IP Logs"
+
+#~ msgid "Der Benutzer \""
+#~ msgstr "Der Benutzer \""
+
+#~ msgid "\" wurde entfernt"
+#~ msgstr "\" wurde entfernt"
+
+#~ msgid "Benutzer "
+#~ msgstr "Benutzer"
+
+#~ msgid " wurde hinzugefügt"
+#~ msgstr " wurde hinzugefügt"

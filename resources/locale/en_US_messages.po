@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ContactForm\n"
+"POT-Creation-Date: 2017-03-06 09:21+0100\n"
+"PO-Revision-Date: 2017-03-06 09:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../src\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;.\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: View\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: Controller/ContactController.php:31
+msgid "Vielen Dank. Wir werden Sie schnellstmöglich kontaktieren."
+msgstr "Thank you, we will contact you as soon as possible."
+
+#: Service/Contact/ContactForm.php:36
+msgid "Bitte überprüfen Sie Ihre Eingabe"
+msgstr "Please check your entry"
+
+#: Service/Contact/ContactFormValidation.php:153
+msgid "Bitte wählen Sie um welche Zeit Sie kontaktiert werden möchten"
+msgstr "Please choose at what time you would like to be contacted"
+
+#: Service/Contact/ContactFormValidation.php:190
+msgid "Bitte wählen Sie an welchem Tag Sie kontaktiert werden möchten"
+msgstr "Please choose at which day you would like to be contacted"
+
+#: Service/Contact/ContactFormValidation.php:232
+msgid "Diese Postleitzahl existiert in diesem Land nicht!"
+msgstr "This zip code does not exist in this country!"
+
+#: Service/Contact/ContactFormValidation.php:252
+msgid "PLZ ungültig"
+msgstr "Zip code invalid"
+
+#: Service/Contact/ContactFormValidation.php:269
+#: Service/Contact/ContactFormValidation.php:286
+#: Service/Contact/ContactFormValidation.php:307
+#: Service/Contact/ContactFormValidation.php:328
+msgid "fehlt"
+msgstr "missing"
+
+#: Service/Contact/ContactFormValidation.php:290
+msgid "falsches E-Mail Format"
+msgstr "Wrong E-Mail format"
+
+#: Service/Contact/ContactFormValidation.php:311
+msgid "zu kurz"
+msgstr "zu kurz"
+
+#: Service/Contact/ContactFormValidation.php:332
+msgid "zu  kurz"
+msgstr "too short"
+
+#: View/About/about.html.php:7 View/Layout/layout.html.php:78
+msgid "Über mich"
+msgstr "About me"
+
+#: View/About/about.html.php:8
+msgid ""
+"Hallo, mein Name ist Marc und ich bin ein junger Programmierer aus der "
+"Schweiz."
+msgstr "Hello, my name is Marc and I'm a young programmer from swizerland"
+
+#: View/About/about.html.php:9
+msgid "Meine Hobbys sind Programmieren und Gamen."
+msgstr "My hobbys are programming and gaming."
+
+#: View/Form/form.html.php:31 View/Form/form.html.php:34
+msgid "Name"
+msgstr "Name"
+
+#: View/Form/form.html.php:42 View/Form/form.html.php:45
+msgid "Vorname"
+msgstr "Prename"
+
+#: View/Form/form.html.php:55 View/Form/form.html.php:58
+msgid "Strasse"
+msgstr "Street"
+
+#: View/Form/form.html.php:60
+msgid "Nr."
+msgstr "Nr."
+
+#: View/Form/form.html.php:63
+msgid "Hausnummer"
+msgstr "Street Number"
+
+#: View/Form/form.html.php:68 View/Form/form.html.php:71
+msgid "PLZ"
+msgstr "ZIP"
+
+#: View/Form/form.html.php:79 View/Form/form.html.php:82
+msgid "Ort"
+msgstr "Location"
+
+#: View/Form/form.html.php:89 View/Form/form.html.php:92
+msgid "Land"
+msgstr "Country"
+
+#: View/Form/form.html.php:99
+msgid "Handy"
+msgstr "Handy"
+
+#: View/Form/form.html.php:102
+msgid "Handy Nummer"
+msgstr "Handy Number"
+
+#: View/Form/form.html.php:109 View/Form/form.html.php:112
+msgid "Email"
+msgstr "Email"
+
+#: View/Form/form.html.php:122 View/Form/form.html.php:125
+msgid "Nachricht"
+msgstr "Message"
+
+#: View/Form/form.html.php:142
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: View/Form/form.html.php:152
+msgid "Möchten sie telefonisch kontaktiert werden?"
+msgstr "Should we contact you by phone?"
+
+#: View/Form/form.html.php:157
+msgid "Ja"
+msgstr "Yes"
+
+#: View/Form/form.html.php:161
+msgid "Nein"
+msgstr "No"
+
+#: View/Form/form.html.php:169
+msgid "Wann sollen wir Sie kontaktieren?"
+msgstr "When should we contact you?"
+
+#: View/Form/form.html.php:175
+msgid "Montag"
+msgstr "Monday"
+
+#: View/Form/form.html.php:181
+msgid "Dienstag"
+msgstr "Tuesday"
+
+#: View/Form/form.html.php:187
+msgid "Mittwoch"
+msgstr "Wednesday"
+
+#: View/Form/form.html.php:193
+msgid "Donnerstag"
+msgstr "Thursday"
+
+#: View/Form/form.html.php:199
+msgid "Freitag"
+msgstr "Friday"
+
+#: View/Form/form.html.php:209
+msgid ""
+"9:00 -\n"
+"                            12:00 Uhr"
+msgstr ""
+"9:00 am -\n"
+"                            12:00 am Uhr"
+
+#: View/Form/form.html.php:216
+msgid ""
+"13:00 -\n"
+"                            17:00 Uhr"
+msgstr ""
+"1:00 pm -\n"
+"                            5:00 pm"
+
+#: View/Index/index.html.php:11
+msgid "Willkommen auf meiner Website!"
+msgstr "Welcome to my Website!"
+
+#: View/Layout/layout.html.php:68
+msgid "Home"
+msgstr "Home"
+
+#: View/Layout/layout.html.php:73
+msgid "Kontakt"
+msgstr "Contact"
+
+#: View/Layout/layout.html.php:86
+msgid "Sprache"
+msgstr "Language"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid "Der Benutzer \"%s\" wurde entfernt"
+#~ msgstr "User \"%s\" removed"
+
+#~ msgid "Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein."
+#~ msgstr "Please enter your username and password."
+
+#~ msgid "Passwort oder Benutzername ungültig."
+#~ msgstr "Password or username invalid."
+
+#~ msgid "Benutzer \"%s\" wurde hinzugefügt"
+#~ msgstr "User \"%s\" added"
+
+#~ msgid "Benutzername existiert bereits"
+#~ msgstr "Username  already exists"
+
+#~ msgid "Fehler bei Benutzername oder passwort"
+#~ msgstr "Error by username or password"
+
+#~ msgid "Es sind nur pdf Dateien erlaubt"
+#~ msgstr "Only pdf files allowed"
+
+#~ msgid "Benutzername"
+#~ msgstr "Username"
+
+#~ msgid "Passwort"
+#~ msgstr "Password"
+
+#~ msgid "Admin"
+#~ msgstr "Admin"
+
+#~ msgid "Benutzer hinzufügen"
+#~ msgstr "Add user"
+
+#~ msgid "Rang"
+#~ msgstr "Group"
+
+#~ msgid "Hinzugefügt von"
+#~ msgstr "Added by"
+
+#~ msgid "Cache löschen"
+#~ msgstr "Clear cache"
+
+#~ msgid "Problem"
+#~ msgstr "Problem"
+
+#~ msgid "IP Adresse"
+#~ msgstr "IP Address"
+
+#~ msgid "Sicherheit"
+#~ msgstr "Security"
+
+#~ msgid "Bugs"
+#~ msgstr "Bugs"
+
+#~ msgid "Bedienung"
+#~ msgstr "Handling"
+
+#~ msgid "Pebcak"
+#~ msgstr "Pebcak"
+
+#~ msgid "sonstiges"
+#~ msgstr "other"
+
+#~ msgid "Einloggen"
+#~ msgstr "Log in"
+
+#~ msgid "Diese Website ist als HTTPS verfügbar:"
+#~ msgstr "This website is available in HTTPS:"
+
+#~ msgid "Log Dateien"
+#~ msgstr "Log Files"
+
+#~ msgid "Ausloggen"
+#~ msgstr "Log out"
+
+#~ msgid "Kontaktformular"
+#~ msgstr "Contact Form"
+
+#~ msgid "Neuste Error Logs"
+#~ msgstr "Newest error logs"
+
+#~ msgid "Neuste IP Logs"
+#~ msgstr "Newest ip logs"
+
+#~ msgid "Der Benutzer \""
+#~ msgstr "User \""
+
+#~ msgid "\" wurde entfernt"
+#~ msgstr "\" was removed"
+
+#~ msgid "Benutzer "
+#~ msgstr "User "
+
+#~ msgid " wurde hinzugefügt"
+#~ msgstr " added"

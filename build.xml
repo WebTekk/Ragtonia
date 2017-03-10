@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="webapp" default="noop">
+    
+    <target name="noop"/>
+    <property environment="env"/>
+    
+    <condition property="is_windows">
+        <os family="windows"/>
+    </condition>
+    
+    <tstamp>
+        <format property="now" pattern="yyyy-MM-dd HH:mm:ss" locale="en,UK"/>
+        <format property="now_num" pattern="yyyyMMddHHmmss" locale="en,UK"/>
+        <format property="now_file" pattern="yyyy-MM-dd_HHmmss" locale="en,UK"/>
+    </tstamp>
+    
+    <!-- By default, we assume all tools to be on the $PATH -->
+    <condition property="ext" value=".bat">
+        <os family="windows"/>
+    </condition>
+
+    <!-- DISPLAYS WINDOWS OS -->
+    <target name="display_windows" if="is_windows" >
+        <echo message="OS Family is: Windows" />
+    </target>
+
+    <target name="apigen" description="Generate API documentation using ApiGen">
+        <delete dir="${basedir}/build/api"/>
+        <mkdir dir="${basedir}/build/api"/>
+        <exec executable="${basedir}/vendor/bin/apigen${ext}" searchpath="true" resolveexecutable="true" failonerror="true">
+            <arg line="generate -s ${basedir} -d ${basedir}/build/api --exclude vendor --exclude build" />
+        </exec>
+    </target>
+</project>
