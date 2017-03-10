@@ -49,7 +49,7 @@
     ##                                              ##
     ##################################################
 -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse custom-nav">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -152,7 +152,7 @@
 
 
 <div class="container">
-    <div class="jumbotron" style="margin-top: -25px">
+    <div class="jumbotron main-content">
 
         <?= $this->section('content') ?>
 

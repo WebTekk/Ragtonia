@@ -28,7 +28,7 @@ $this->stop(); ?>
         <?php endforeach; ?>
     <?php endforeach; ?>
     <div class="form-group">
-        <label for="name" class="col-md-2 control-label"><?= $this->e(__("Name")) ?>*</label>
+        <label for="name" class="col-sm-2 control-label"><?= $this->e(__("Name")) ?>*</label>
         <div class="col-sm-4">
             <input type="text" name="name" class="form-control" id="name"
                    placeholder="<?= $this->e(__("Name")) ?>"
@@ -145,9 +145,9 @@ $this->stop(); ?>
         </div>
     </div>
     <br>
-    <div class="form-group">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
+    <div class="form-group bright-display">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
             <label class="btn btn-primary btn-file">
                 <input type="file" name="fileToUpload" id="fileToUpload" value="">
             </label>
@@ -162,8 +162,29 @@ $this->stop(); ?>
                 </div>
             <?php endif; ?>
         </div>
-        <div class="col-md-4"></div>
-        <button type="submit" name="send" class="btn btn-success col-md-2">Senden</button>
+        <div class="col-sm-4"></div>
+        <button type="submit" name="send" class="btn btn-success col-sm-2">Senden</button>
     </div>
+    <div class="small-display">
+        <div class="form-group">
+            <div class="col-sm-12">
+                <label class="btn btn-primary btn-file small-display-field">
+                    <input type="file" name="fileToUpload" id="fileToUpload" value="">
+                </label>
+                <?php if (!empty($this->value('errors.fileToUploadMain'))) : ?>
+                    <div class="alert alert-danger" role="alert">
+                        <span class="help-block"><?php $this->wh('errors.fileToUploadMain'); ?></span>
+                    </div>
+                <?php endif; ?>
+                <?php if (!empty($this->value('errors.fileToUpload'))) : ?>
+                    <div class="alert alert-danger" role="alert">
+                        <span class="help-block"><?php $this->wh('errors.fileToUpload'); ?></span>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+        <button type="submit" name="send" class="btn btn-success small-display-field">Senden</button>
+    </div>
+
 
 </form>

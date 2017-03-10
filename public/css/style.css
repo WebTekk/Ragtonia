@@ -32,23 +32,50 @@ h1 {
     float: right;
 }
 
+.main-content {
+    margin-top: 15px;
+}
+
+.small-display {
+    display: none;
+}
+
+.small-display-field {
+    width: 100%;
+}
+
 @media screen and (max-width: 767px) {
     .float-right {
         float: none;
     }
+    .main-content {
+        margin-top: 25px;
+    }
+    .bright-display {
+        display: none;
+    }
+    .small-display {
+        display: block;
+    }
 }
 
-#login-dp{
+#login-dp {
     min-width: 250px;
     padding: 14px 14px 0;
-    overflow:hidden;
-    background-color:rgba(255,255,255,.8);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 /* ########### Register Button ##########*/
 /*#login-dp .bottom{*/
-    /*background-color:rgba(255,255,255,.8);*/
-    /*border-top:1px solid #ddd;*/
-    /*clear:both;*/
-    /*padding:14px;*/
+/*background-color:rgba(255,255,255,.8);*/
+/*border-top:1px solid #ddd;*/
+/*clear:both;*/
+/*padding:14px;*/
 /*}*/
+
+.custom-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
