@@ -1,7 +1,7 @@
 <?php $this->layout('view::Layout/layout.html.php') ?>
 
 <?php $this->start('assets');
-echo asset('view::About/about.css');
+echo asset('view::Games/games.css');
 $this->stop(); ?>
 
-<h1><?= __('About the Empire') ?></h1>
+<h1><?= $this->e(__('Games')) ?></h1>

@@ -1,5 +1,5 @@
 html {
-    background-image: url("background.jpg");
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,6 +8,48 @@ html {
     background-attachment: fixed;
     background-position: center;
     overflow-y: scroll;
+}
+
+.navbar {
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: black !important;
+}
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.container {
+
+    z-index: 2147483648;
+}
+
+.nav:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.hover {
+    background-color: white;
 }
 
 body {
@@ -59,23 +101,8 @@ h1 {
     }
 }
 
-#login-dp {
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, .8);
-}
-
-/* ########### Register Button ##########*/
-/*#login-dp .bottom{*/
-/*background-color:rgba(255,255,255,.8);*/
-/*border-top:1px solid #ddd;*/
-/*clear:both;*/
-/*padding:14px;*/
-/*}*/
-
 .custom-nav {
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 999999999999;
 }

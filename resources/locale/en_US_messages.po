@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ContactForm\n"
+"Project-Id-Version: GamesController\n"
 "POT-Creation-Date: 2017-03-06 09:21+0100\n"
 "PO-Revision-Date: 2017-03-06 09:21+0100\n"
 "Last-Translator: \n"
@@ -188,14 +188,14 @@ msgstr "Home"
 
 #: View/Layout/layout.html.php:73
 msgid "Kontakt"
-msgstr "Contact"
+msgstr "GamesController"
 
 #: View/Layout/layout.html.php:86
 msgid "Sprache"
 msgstr "Language"
 
-#~ msgid "Contact"
-#~ msgstr "Contact"
+#~ msgid "GamesController"
+#~ msgstr "GamesController"
 
 #~ msgid "Der Benutzer \"%s\" wurde entfernt"
 #~ msgstr "User \"%s\" removed"
@@ -273,7 +273,7 @@ msgstr "Language"
 #~ msgstr "Log out"
 
 #~ msgid "Kontaktformular"
-#~ msgstr "Contact Form"
+#~ msgstr "GamesController GamesController"
 
 #~ msgid "Neuste Error Logs"
 #~ msgstr "Newest error logs"

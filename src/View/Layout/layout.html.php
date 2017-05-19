@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Marc Wilhelm">
-    <meta name="description" content="Tekk's ContactForm">
-    <meta name="keywords" content="Tekk, TekkCraft">
+    <meta name="author" content="Tekk">
+    <meta name="description" content="Ragtonia">
+    <meta name="keywords" content="Ragtonia">
     <meta name=“robots” content=“nofollow”>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <base href="<?php echo baseurl("/", true) ?> ">
     <!--canonical-->
-    <link rel="canonical" href="tekk.ch">
+    <link rel="canonical" href="#">
 
     <link rel="icon" href="favicon.ico">
 
-    <title>Contactform</title>
+    <title>Ragtonia</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -70,80 +70,23 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav">
-                <li><a class="active" href="<?php echo baseurl('/contact') ?>"><?= $this->e(__("Kontakt")) ?> <span
+                <li><a class="active" href="<?php echo baseurl('/games') ?>"><?= $this->e(__("Games")) ?> <span
                                 class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="nav navbar-nav">
-                <li><a class="active" href="<?php echo baseurl('/about_me') ?>"><?= $this->e(__("Über mich")) ?> <span
+                <li><a class="active" href="<?php echo baseurl('/about') ?>"><?= $this->e(__("About the Empire")) ?> <span
                                 class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <div class="float-right">
-                <?php if (empty(session()->get('email')))  : ?>
-                    <ul class="hover nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span
-                                        class="caret"></span></a>
-                            <ul id="login-dp" class="dropdown-menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <form role="form" method="post" action="<?= $this->e(baseurl('/login')) ?>"
-                                                  id="login-nav">
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="login_email">Email Adresse</label>
-                                                    <input type="email" name="login_email" class="form-control"
-                                                           placeholder="Email Adresse" required>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="login_password">Passwort</label>
-                                                    <input type="password" name="login_password" class="form-control"
-                                                           placeholder="Passwort" required>
-                                                </div>
-                                                <?php foreach ($this->next('flash') as $type => $messages) : ?>
-                                                    <?php foreach ($messages as $message) : ?>
-                                                        <?php if ($type == 'empty') ?>
-                                                            <div class="form-group">
-                                                            <div class="alert alert-danger" role="alert">
-                                                            <span class="help-block"><?php echo $this->e($message); ?></span>
-                                                        </div>
-                                                        </div>
-                                                    <?php endforeach; ?>
-                                                <?php endforeach; ?>
-                                                <div class="form-group">
-
-                                                </div>
-                                                <div class="form-group">
-                                                    <button type="submit" class="btn btn-primary btn-block">Sign in
-                                                    </button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <!-- #### Register Button #### -->
-                                        <!--<div class="bottom text-center">-->
-                                        <!--    New here ? <a href="#"><b>Join Us</b></a>-->
-                                        <!--</div>-->
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                <?php else : ?>
-                    <ul class="nav navbar-nav">
-                        <li><a class="active" href="<?php echo baseurl('/logout') ?>"><?= $this->e(__("Ausloggen")) ?>
-                                <span
-                                        class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                <?php endif; ?>
                 <ul class="hover nav navbar-nav">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false"><?= $this->e(__("Sprache")) ?><span class="caret"></span></a>
+                           aria-expanded="false"><?= $this->e(__("Language")) ?><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo baseurl('/language') . '?lang=de_DE' ?>">de_DE</a></li>
-                            <li><a href="<?php echo baseurl('/language') . '?lang=en_US' ?>">en_US</a></li>
+                            <li><a href="<?php echo baseurl('/language') . '?lang=de_DE' ?>"><?= $this->e('German') ?></a></li>
+                            <li><a href="<?php echo baseurl('/language') . '?lang=en_US' ?>"><?= $this->e('English') ?></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -152,15 +95,18 @@
     </div>
 </nav>
 
+<div style="background-color: red; z-index: -2; width: 30%; height: 100%; position: absolute; top: 0; left: 0"></div>
+<div style="background-color: blue; z-index: -2; width: 40%; height: 100%; position: absolute; top: 0; left: 30%"></div>
+<div style="background-color: red; z-index: -2; width: 30%; height: 100%; position: absolute; top: 0; right: 0;"></div>
+<div style="background-color: rgba(0,0,0,0.7); z-index: -1; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
 
 <div class="container">
-    <div class="jumbotron main-content">
+    <div class="main-content content">
 
         <?= $this->section('content') ?>
 
     </div>
 </div>
-
 
 </body>
 </html>

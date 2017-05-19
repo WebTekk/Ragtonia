@@ -2,15 +2,10 @@
 
 <?php $this->start('assets');
 echo asset([
-    'view::Index/index.js',
     'view::Index/index.css'
 ]);
 $this->stop(); ?>
 
 <div>
-    <h1><?= __('Willkommen auf meiner Website!') ?></h1>
+    <h1><?= __('Welcome to Ragtonia!') ?></h1>
 </div>
-</div>
-</div>
-<div>
-    <div>
