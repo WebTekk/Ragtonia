@@ -1,3 +1,21 @@
 p {
     text-align: center;
 }
+
+.about-left-navigation {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.nav:hover {
+    background-color: white;
+}
+

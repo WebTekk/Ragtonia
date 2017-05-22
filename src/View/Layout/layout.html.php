@@ -18,8 +18,8 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -65,17 +65,17 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a class="active" href="<?php echo baseurl('/') ?>"><?= $this->e(__("Home")) ?> <span
+                <li><a href="<?php echo baseurl('/') ?>"><?= $this->e(__("Home")) ?> <span
                                 class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="nav navbar-nav">
-                <li><a class="active" href="<?php echo baseurl('/games') ?>"><?= $this->e(__("Games")) ?> <span
+                <li><a href="<?php echo baseurl('/games') ?>"><?= $this->e(__("Games")) ?> <span
                                 class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="nav navbar-nav">
-                <li><a class="active" href="<?php echo baseurl('/about') ?>"><?= $this->e(__("About the Empire")) ?> <span
+                <li><a href="<?php echo baseurl('/about') ?>"><?= $this->e(__("About the Empire")) ?> <span
                                 class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -95,10 +95,9 @@
     </div>
 </nav>
 
-<div style="background-color: red; z-index: -2; width: 30%; height: 100%; position: absolute; top: 0; left: 0"></div>
-<div style="background-color: blue; z-index: -2; width: 40%; height: 100%; position: absolute; top: 0; left: 30%"></div>
-<div style="background-color: red; z-index: -2; width: 30%; height: 100%; position: absolute; top: 0; right: 0;"></div>
-<div style="background-color: rgba(0,0,0,0.7); z-index: -1; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+<div style="background-color: rgb(76,0,0); z-index: -1; width: 30%; height: 100%; position: absolute; top: 0; left: 0"></div>
+<div style="background-color: rgb(0,0,76); z-index: -1; width: 40%; height: 100%; position: absolute; top: 0; left: 30%"></div>
+<div style="background-color: rgb(76,0,0); z-index: -1; width: 30%; height: 100%; position: absolute; top: 0; right: 0;"></div>
 
 <div class="container">
     <div class="main-content content">

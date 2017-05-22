@@ -16,7 +16,6 @@ class IndexController extends AppController
      */
     public function index()
     {
-        $flash = session()->getFlashBag()->all();
-        return $this->render('view::Index/index.html.php', ['flash' => $flash]);
+        return $this->render('view::Index/index.html.php');
     }
 }

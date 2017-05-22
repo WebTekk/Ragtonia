@@ -15,6 +15,11 @@ date_default_timezone_set('Europe/Berlin');
 
 $config = array();
 
+$config['viewPath'] = __DIR__ . '/../src/View'; // Path to View folder
+$config['assets']['cachePath'] = __DIR__ . '/../tmp/cache'; // Cache directory path
+$config['assets']['lifetime'] = 0; // Cache lifetime, 0 == no expire
+$config['assets']['minify'] = false; // Enable minifying
+
 $config['routes'] = read(__DIR__ . '/routes.php'); // Read routes
 
 if (file_exists(__DIR__ . '/../../env.php')) {
