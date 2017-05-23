@@ -95,9 +95,9 @@
     </div>
 </nav>
 
-<div style="background-color: rgb(76,0,0); z-index: -1; width: 30%; height: 100%; position: absolute; top: 0; left: 0"></div>
-<div style="background-color: rgb(0,0,76); z-index: -1; width: 40%; height: 100%; position: absolute; top: 0; left: 30%"></div>
-<div style="background-color: rgb(76,0,0); z-index: -1; width: 30%; height: 100%; position: absolute; top: 0; right: 0;"></div>
+<div style="background-color: rgb(76,0,0); z-index: -1; width: 30%; height: auto; min-height: 100%; position: absolute; top: 0; left: 0;"></div>
+<div style="background-color: rgb(0,0,76); z-index: -1; width: 40%; height: auto; min-height: 100%; position: absolute; top: 0; left: 30%;"></div>
+<div style="background-color: rgb(76,0,0); z-index: -1; width: 30%; height: auto; min-height: 100%; position: absolute; top: 0; right: 0;"></div>
 
 <div class="container">
     <div class="main-content content">

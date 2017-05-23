@@ -1,5 +1,7 @@
 p {
     text-align: center;
+    color: white;
+    font-size: xx-large;
 }
 
 .about-left-navigation {
@@ -17,5 +19,11 @@ li:hover {
 
 .nav:hover {
     background-color: white;
+}
+
+.rank-list {
+    color: white;
+    font-size: large;
+    margin-left: 20%;
 }
 
