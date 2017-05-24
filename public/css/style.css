@@ -5,6 +5,12 @@ html {
     background-size: auto;
     overflow-y: scroll;
     background-repeat: repeat-y;
+    background: #4c0000;
+    background: -moz-linear-gradient(left,  #4c0000 0%, #4c0000 30%, #00004c 30%, #00004c 70%, #4c0000 70%, #4c0000 100%);
+    background: -webkit-linear-gradient(left,  #4c0000 0%,#4c0000 30%,#00004c 30%,#00004c 70%,#4c0000 70%,#4c0000 100%);
+    background: linear-gradient(to right,  #4c0000 0%,#4c0000 30%,#00004c 30%,#00004c 70%,#4c0000 70%,#4c0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c0000', endColorstr='#4c0000',GradientType=1 );
+    padding-bottom: 20px;
 }
 
 h1 {

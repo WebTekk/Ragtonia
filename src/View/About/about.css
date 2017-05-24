@@ -27,3 +27,8 @@ li:hover {
     margin-left: 20%;
 }
 
+@media screen and (max-width: 400px) {
+    .rank-list {
+        margin-left: 0;
+    }
+}
