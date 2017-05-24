@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GamesController\n"
-"POT-Creation-Date: 2017-05-24 17:56+0200\n"
-"PO-Revision-Date: 2017-05-24 17:56+0200\n"
+"POT-Creation-Date: 2017-05-24 19:08+0200\n"
+"PO-Revision-Date: 2017-05-24 19:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_CH\n"
@@ -29,7 +29,7 @@ msgstr "Regierungsform"
 msgid "Military"
 msgstr "Militärisch"
 
-#: View/About/about.html.php:24 View/About/about.html.php:71
+#: View/About/about.html.php:24 View/About/about.html.php:98
 msgid "Government"
 msgstr "Regierungsform"
 
@@ -49,137 +49,222 @@ msgstr "Boden Team"
 msgid "Recruit"
 msgstr "Rekrut"
 
-#: View/About/about.html.php:39
+#: View/About/about.html.php:40
 msgid "Soldier"
 msgstr "Soldat"
 
-#: View/About/about.html.php:40
+#: View/About/about.html.php:41
+msgid "Get and perform commands."
+msgstr "Erhält Befehle und führt diese aus."
+
+#: View/About/about.html.php:43
 msgid "Instructor"
 msgstr "Ausbildner"
 
-#: View/About/about.html.php:41
+#: View/About/about.html.php:44
+msgid "Instructs recruits and special forces."
+msgstr "Bildet Rekruten und Spezialeinheiten aus."
+
+#: View/About/about.html.php:46
 msgid "Driver"
 msgstr "Fahrer"
 
-#: View/About/about.html.php:42
+#: View/About/about.html.php:47
+msgid "Drives vehicles."
+msgstr "Fährt Fahrzeuge."
+
+#: View/About/about.html.php:49
 msgid "Corporal"
 msgstr "Korporal"
 
-#: View/About/about.html.php:43
+#: View/About/about.html.php:50
+msgid "Get and perform commands from a squad leader."
+msgstr "Erhält Befehle von einem Truppführer und führt diese aus."
+
+#: View/About/about.html.php:52
 msgid "Sergeant"
 msgstr "Sergeant"
 
-#: View/About/about.html.php:44
+#: View/About/about.html.php:53
+msgid "Squad leader for squads up to 10 man."
+msgstr "Führt Trupps von bis zu 10 Mann."
+
+#: View/About/about.html.php:55
 msgid "Adjutant"
 msgstr "Adjutant"
 
-#: View/About/about.html.php:45
+#: View/About/about.html.php:56
+msgid "Leading assistant."
+msgstr "Führungsgehilfe."
+
+#: View/About/about.html.php:58
 msgid "Lieutenant"
 msgstr "Leutnant"
 
-#: View/About/about.html.php:46
+#: View/About/about.html.php:59
+msgid "Platoon commander for platoons up to 4 companies with 40 man."
+msgstr "Führt einen Zug aus 4 Trupps mit bis zu 40 Mann."
+
+#: View/About/about.html.php:61
 msgid "Captain"
 msgstr "Hauptmann"
 
-#: View/About/about.html.php:47
+#: View/About/about.html.php:62
+msgid ""
+"Leads companies, artillery or air defences with 4 platoons up to 160 man."
+msgstr ""
+"Leitet eine Kompanien, Artillerien oder Flugabwehr Einheiten bestehend aus 4 "
+"Zügen mit bis zu 160 Mann."
+
+#: View/About/about.html.php:64
 msgid "Colonel"
 msgstr "Oberst"
 
-#: View/About/about.html.php:48
+#: View/About/about.html.php:65
+msgid "Leads battalions with 4 companies up to 640 man."
+msgstr "Führt ein Bataillon aus 4 Kompanien mit bis zu 640 Mann."
+
+#: View/About/about.html.php:67
 msgid "Regiment leader"
 msgstr "Regiment Führer"
 
-#: View/About/about.html.php:49
+#: View/About/about.html.php:68
+msgid "Leads regiment with 4 battalions up to 2560 man."
+msgstr "Führt ein Regiment aus 4 Bataillonen mit bis zu 2560 Mann."
+
+#: View/About/about.html.php:70
 msgid "Commandant"
 msgstr "Kommandant"
 
-#: View/About/about.html.php:50 View/About/about.html.php:60
+#: View/About/about.html.php:71
+msgid "Leads all units in a specified territory up to a planet."
+msgstr ""
+"Führt alle Einheiten in einem zugewiesenen Bereich in der Grösse von bis zu "
+"einem Planeten."
+
+#: View/About/about.html.php:73 View/About/about.html.php:84
 msgid "Commander"
 msgstr "Commander"
 
-#: View/About/about.html.php:52
+#: View/About/about.html.php:74
+msgid "Leads all units in a system."
+msgstr "Führt alle Einheiten in einem System."
+
+#: View/About/about.html.php:76
 msgid "Air support"
 msgstr "Lufteinheiten"
 
-#: View/About/about.html.php:54
+#: View/About/about.html.php:78
 msgid "Gunner"
 msgstr "Kanonier"
 
-#: View/About/about.html.php:55
+#: View/About/about.html.php:79
 msgid "Hunter pilot"
 msgstr "Jägerpilot"
 
-#: View/About/about.html.php:56
+#: View/About/about.html.php:80
 msgid "Cruiser Pilot"
 msgstr "Kreuzerpilot"
 
-#: View/About/about.html.php:57
+#: View/About/about.html.php:81
 msgid "Star Destroyer Pilot"
 msgstr "Sternzerstörerpilot"
 
-#: View/About/about.html.php:58
+#: View/About/about.html.php:82
 msgid "Super Star Destroyer Pilot"
 msgstr "Supersternzerstörerpilot"
 
-#: View/About/about.html.php:59
+#: View/About/about.html.php:83
 msgid "Death Star Pilot"
 msgstr "Todessternpilot"
 
-#: View/About/about.html.php:61 View/About/about.html.php:62
+#: View/About/about.html.php:85
+msgid "Leads his own ship."
+msgstr "Leitet sein eigenes Schiff."
+
+#: View/About/about.html.php:86
 msgid "Fleet Commander"
 msgstr "Flottenkommandant"
 
-#: View/About/about.html.php:64
+#: View/About/about.html.php:87
+msgid "Leads the whole fleet."
+msgstr "Leitet die gesamte Flotte"
+
+#: View/About/about.html.php:89
 msgid "Superordinate "
 msgstr "Übergeordnet "
 
-#: View/About/about.html.php:66
+#: View/About/about.html.php:91
 msgid "Strategist"
 msgstr "Stratege"
 
-#: View/About/about.html.php:67 View/About/about.html.php:83
+#: View/About/about.html.php:92
+msgid "Develops strategies for all units."
+msgstr "Entwickelt Strategien für sämtliche Einheiten."
+
+#: View/About/about.html.php:93 View/About/about.html.php:114
 msgid "Emperor"
 msgstr "Imperator"
 
-#: View/About/about.html.php:73
+#: View/About/about.html.php:94
+msgid "Direct leader of the army."
+msgstr "Direkter Befehlshaber der Armee."
+
+#: View/About/about.html.php:100
 msgid "Delegates"
 msgstr "Abgeordneter"
 
-#: View/About/about.html.php:74
+#: View/About/about.html.php:101
+msgid "Peace negotiations, etc."
+msgstr "Friedensverhandlungen usw."
+
+#: View/About/about.html.php:102
 msgid "Head of Industry"
 msgstr "Leiter Industrie"
 
-#: View/About/about.html.php:75
+#: View/About/about.html.php:103
 msgid "Head of health care"
 msgstr "Leiter Gesundheitswesen"
 
-#: View/About/about.html.php:76
+#: View/About/about.html.php:104
 msgid "Head of propaganda"
 msgstr "Leiter Propaganda"
 
-#: View/About/about.html.php:77
+#: View/About/about.html.php:105
 msgid "Head of research"
 msgstr "Leiter Forschung"
 
-#: View/About/about.html.php:78
+#: View/About/about.html.php:106
 msgid "Head of finance"
 msgstr "Leiter Finanzwesen"
 
-#: View/About/about.html.php:79
+#: View/About/about.html.php:107
 msgid "Head of military intelligence"
 msgstr "Leiter Nachrichtendienst"
 
-#: View/About/about.html.php:80
+#: View/About/about.html.php:108
 msgid "2. deputy"
 msgstr "2. Stellvertreter"
 
-#: View/About/about.html.php:81
+#: View/About/about.html.php:109
+msgid "On-messages the 1. deputy."
+msgstr "Vertritt den 1. Stellvertreter."
+
+#: View/About/about.html.php:110
 msgid "1. deputy"
 msgstr "1. Stellvertreter"
 
-#: View/About/about.html.php:82
+#: View/About/about.html.php:111
+msgid "On-messages the emperor."
+msgstr "Vertritt den Imperator."
+
+#: View/About/about.html.php:112
 msgid "Emperor's right hand"
 msgstr "Rechte Hand des Imperators"
+
+#: View/About/about.html.php:113
+msgid "Only the emperor has a higher force than the emperor's right hand."
+msgstr "Nur der Imperator hat mehr Macht als die rechte Hand des Imperators."
 
 #: View/Games/games.html.php:7 View/Layout/layout.html.php:73
 msgid "Games"
@@ -238,7 +323,9 @@ msgstr "Englisch"
 #~ msgid "Über mich"
 #~ msgstr "About me"
 
-#~ msgid "Hallo, mein Name ist Marc und ich bin ein junger Programmierer aus der Schweiz."
+#~ msgid ""
+#~ "Hallo, mein Name ist Marc und ich bin ein junger Programmierer aus der "
+#~ "Schweiz."
 #~ msgstr "Hello, my name is Marc and I'm a young programmer from swizerland"
 
 #~ msgid "Meine Hobbys sind Programmieren und Gamen."

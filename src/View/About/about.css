@@ -23,8 +23,12 @@ li:hover {
 
 .rank-list {
     color: white;
-    font-size: large;
+    font-size: 200%;
     margin-left: 20%;
+}
+
+.rank-list-sub {
+    font-size: 70%;
 }
 
 @media screen and (max-width: 400px) {

@@ -28,6 +28,7 @@ app.about.Index = function () {
         $this.box.find("[data-name=toggle-ground-team]").on("click", $this.groundTeamOnClick);
         $this.box.find("[data-name=toggle-air-support]").on("click", $this.airSupportOnClick);
         $this.box.find("[data-name=toggle-superordinate]").on("click", $this.superordinateOnClick);
+        $this.box.find("[data-name=info]").on("click", $this.infoOnClick);
     };
 
     this.governmentFormOnClick = function () {
@@ -69,6 +70,17 @@ app.about.Index = function () {
 
     this.superordinateOnClick = function () {
         var box = $this.box.find("[data-name=superordinate]");
+        if (box.hasClass("hidden")) {
+            box.removeClass("hidden");
+        } else {
+            box.addClass("hidden");
+        }
+    };
+
+    this.infoOnClick = function (event) {
+        event.preventDefault();
+        var field = $(this).data('id');
+        var box = $this.box.find("[data-name=" + field + "-info]");
         if (box.hasClass("hidden")) {
             box.removeClass("hidden");
         } else {
