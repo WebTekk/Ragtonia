@@ -85,8 +85,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false"><?= $this->e(__("Language")) ?><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo baseurl('/language') . '?lang=de_DE' ?>"><?= $this->e('German') ?></a></li>
-                            <li><a href="<?php echo baseurl('/language') . '?lang=en_US' ?>"><?= $this->e('English') ?></a></li>
+                            <li><a href="<?php echo baseurl('/language') . '?lang=de_DE' ?>"><?= $this->e(__('German')) ?></a></li>
+                            <li><a href="<?php echo baseurl('/language') . '?lang=en_US' ?>"><?= $this->e(__('English')) ?></a></li>
                         </ul>
                     </li>
                 </ul>

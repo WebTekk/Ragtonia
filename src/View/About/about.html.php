@@ -19,6 +19,10 @@ $this->stop(); ?>
                    aria-haspopup="true"
                    aria-expanded="false"><?= $this->e(__("Military")) ?></a>
             </li>
+            <li><a href="#" data-toggle="dropdown" data-name="government" role="button"
+                   aria-haspopup="true"
+                   aria-expanded="false"><?= $this->e(__("Government")) ?></a>
+            </li>
         </ul>
     </div>
 
@@ -60,6 +64,22 @@ $this->stop(); ?>
         <h3 data-name="toggle-superordinate"><?= $this->e(__("Superordinate ")) ?></h3>
         <ul class="rank-list hidden" data-name="superordinate">
             <li><?= $this->e(__("Strategist")) ?></li>
+            <li><?= $this->e(__("Emperor")) ?></li>
+        </ul>
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-6 hidden" data-content="single" data-name="government-content">
+        <h2><?= $this->e(__("Government")) ?></h2>
+        <ul class="rank-list" data-name="government">
+            <li><?= $this->e(__("Delegates")) ?></li>
+            <li><?= $this->e(__("Head of Industry")) ?></li>
+            <li><?= $this->e(__("Head of health care")) ?></li>
+            <li><?= $this->e(__("Head of propaganda")) ?></li>
+            <li><?= $this->e(__("Head of research")) ?></li>
+            <li><?= $this->e(__("Head of finance")) ?></li>
+            <li><?= $this->e(__("Head of military intelligence")) ?></li>
+            <li><?= $this->e(__("2. deputy")) ?></li>
+            <li><?= $this->e(__("1. deputy")) ?></li>
+            <li><?= $this->e(__("Emperor's right hand")) ?></li>
             <li><?= $this->e(__("Emperor")) ?></li>
         </ul>
     </div>
