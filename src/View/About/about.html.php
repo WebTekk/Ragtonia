@@ -27,7 +27,7 @@ $this->stop(); ?>
     </div>
 
     <div class="col-md-6 col-lg-6 col-sm-6 hidden" data-content="single" data-name="military-content">
-        <h2><?= $this->e(__("Military ranks.")) ?></h2>
+        <h2><?= $this->e(__("Military ranks")) ?></h2>
 
         <h3 data-name="toggle-ground-team"><?= $this->e(__("Ground team")) ?></h3>
         <ul class="rank-list hidden" data-name="ground-team">
@@ -56,6 +56,11 @@ $this->stop(); ?>
             <li><?= $this->e(__("Commander")) ?></li>
             <li><?= $this->e(__("Fleet Commander")) ?></li>
             <li><?= $this->e(__("Fleet Commander")) ?></li>
+        </ul>
+        <h3 data-name="toggle-superordinate"><?= $this->e(__("Superordinate ")) ?></h3>
+        <ul class="rank-list hidden" data-name="superordinate">
+            <li><?= $this->e(__("Strategist")) ?></li>
+            <li><?= $this->e(__("Emperor")) ?></li>
         </ul>
     </div>
 </div>
