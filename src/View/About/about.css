@@ -21,18 +21,31 @@ li:hover {
     background-color: white;
 }
 
-.rank-list {
+.about-content {
     color: white;
     font-size: 200%;
     margin-left: 20%;
 }
 
-.rank-list-sub {
-    font-size: 70%;
+
+.about-content-sub {
+font-size: 70%;
+}
+
+.about-history-content {
+    color: white;
+}
+
+.about-history-content-sub {
+    font-size: 16pt;
+}
+
+.war-strategy-image {
+    width: 100%;
 }
 
 @media screen and (max-width: 400px) {
-    .rank-list {
+    .about-content {
         margin-left: 0;
     }
 }

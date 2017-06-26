@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GamesController\n"
-"POT-Creation-Date: 2017-05-24 19:08+0200\n"
-"PO-Revision-Date: 2017-05-24 19:08+0200\n"
+"POT-Creation-Date: 2017-06-26 19:19+0200\n"
+"PO-Revision-Date: 2017-06-26 19:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_CH\n"
@@ -29,242 +29,302 @@ msgstr "Regierungsform"
 msgid "Military"
 msgstr "Militärisch"
 
-#: View/About/about.html.php:24 View/About/about.html.php:98
+#: View/About/about.html.php:24 View/About/government.html.php:3
 msgid "Government"
 msgstr "Regierungsform"
 
-#: View/About/about.html.php:30
+#: View/About/about.html.php:28 View/About/history.html.php:3
+msgid "History"
+msgstr "Geschichte"
+
+#: View/About/formOfGovernment.html.php:3
 msgid "Ragtonia is an empire with an emperor in perpetuity."
 msgstr "Ragtonia ist ein Imperium mit einem ewigen Imperator."
 
-#: View/About/about.html.php:34
+#: View/About/government.html.php:5
+msgid "Delegates"
+msgstr "Abgeordneter"
+
+#: View/About/government.html.php:6
+msgid "Peace negotiations, etc."
+msgstr "Friedensverhandlungen usw."
+
+#: View/About/government.html.php:7
+msgid "Head of Industry"
+msgstr "Leiter Industrie"
+
+#: View/About/government.html.php:8
+msgid "Head of health care"
+msgstr "Leiter Gesundheitswesen"
+
+#: View/About/government.html.php:9
+msgid "Head of propaganda"
+msgstr "Leiter Propaganda"
+
+#: View/About/government.html.php:10
+msgid "Head of research"
+msgstr "Leiter Forschung"
+
+#: View/About/government.html.php:11
+msgid "Head of finance"
+msgstr "Leiter Finanzwesen"
+
+#: View/About/government.html.php:12
+msgid "Head of military intelligence"
+msgstr "Leiter Nachrichtendienst"
+
+#: View/About/government.html.php:13
+msgid "2. deputy"
+msgstr "2. Stellvertreter"
+
+#: View/About/government.html.php:14
+msgid "On-messages the 1. deputy."
+msgstr "Vertritt den 1. Stellvertreter."
+
+#: View/About/government.html.php:15
+msgid "1. deputy"
+msgstr "1. Stellvertreter"
+
+#: View/About/government.html.php:16
+msgid "On-messages the emperor."
+msgstr "Vertritt den Imperator."
+
+#: View/About/government.html.php:17
+msgid "Emperor's right hand"
+msgstr "Rechte Hand des Imperators"
+
+#: View/About/government.html.php:18
+msgid "Only the emperor has a higher force than the emperor's right hand."
+msgstr "Nur der Imperator hat mehr Macht als die rechte Hand des Imperators."
+
+#: View/About/government.html.php:19 View/About/militaryRanks.html.php:62
+msgid "Emperor"
+msgstr "Imperator"
+
+#: View/About/history.html.php:4
+msgid "The legend of Ragnaron the 1st"
+msgstr "Die Legende von Ragnaron dem 1."
+
+#: View/About/history.html.php:6
+msgid "historyOfRagnaronTextOne"
+msgstr ""
+"Ragnaron der 1. war ein sehr kluger König und wegen der Unterdrückung von "
+"Orion schmiedete er Pläne um den Krieg gegen Orion für immer zu beenden. Nur "
+"das Problem war, wenn sie verlieren würden und nicht genug gestärkt wurden "
+"vor der nächsten Schlacht, dann würde sie Orion wahrscheinlich ausrotten. "
+"Deshalb beschloss Ragnaron, Orion nur so zu schwächen, dass sie einige Zeit "
+"Ruhe hatten um die Armee wieder zu stärken. So kam es das dieser "
+"Schlachtplan zustande kam:"
+
+#: View/About/history.html.php:8
+msgid "historyOfRagnaronTextTwo"
+msgstr ""
+"In der Nacht ermutigte der König selbst seine Leute mit den Worten:  \n"
+"«Söhne und Töchter Ragtonias, meine Brüder und Schwestern! \n"
+"In euren Augen sehe ich dieselbe Furcht, die auch mich verzagen liesse.\n"
+"Der Tag mag kommen da der Mut der Menschen erlischt, da wir unsere Gefährten "
+"im Stich lassen und aller Freundschaft Bande bricht.\n"
+"Doch dieser Tag ist noch fern!\n"
+"Die Stunde der Wölfe und zerschmetterter Schilde, da das Zeitalter der "
+"Menschen tosend untergeht.\n"
+"Doch dieser Tag ist noch fern.\n"
+"Denn morgen kämpfen wir.\n"
+"Bei allem was euch teuer ist, auf dieser Erde, sage ich haltet stand "
+"Menschen Ragtonias!» \n"
+"\n"
+"\n"
+"Früh am nächsten Morgen ritt Ragnaron der 1. auf seinem Pferd Epona los. Auf "
+"dem Weg begegneten sie einem Botschafter, der ihnen berichtete, dass die "
+"anderen Truppen bereit seien. Bei der Schlucht angekommen hielt der König "
+"inne und schaute auf das Lager hinunter und als die ersten Sonnenstrahlen "
+"über die Baumwipfel stiegen, preschte er die Schlucht hinunter auf die "
+"feindlichen Truppen zu. Als die Leute von Orion sahen, dass der König unter "
+"ihnen war griffen auch sie an, denn sie hofften mit dem Tod des Königs, "
+"Ragtonia zu schwächen und zu besiegen. Da warf Ragnaron seinen Speer gegen "
+"einen Felsen der Speer zerschellte. Das war das Zeichen die anderen Truppen "
+"griffen von allen Seiten an. Die Oriontruppen waren dadurch sehr überrascht. "
+"Die Schlacht hielt drei Tage und drei Nächte an. Von beiden Seiten waren "
+"raffinierte Züge zu sehen. Als einige Männer Orions begannen schwere, "
+"brennende Fässer auf die Männer Ragtonias zu rollen, sprang Ragnaron von "
+"Epona um eines der Fässer aufzuhalten eine ganze Gruppe seiner Soldaten, zu "
+"zermalmen. Es überrollte ihn und bremste ab bis es schliesslich anhielt. "
+"Doch Ragnaron der 1. war so geschwächt das er um nicht zu fallen sich auf "
+"Epona stützen musste. Da kam der damalige Anführer von Orion und forderte "
+"ihn heraus. Nach einem schweren Kampf besiegte ihn Ragnaron und liess ihn "
+"schliesslich gefangen nehmen. Doch der Anführer stiess sein Schwert in "
+"Ragnarons Brust. Darauf hin, wurde er von wütenden Männern sofort "
+"umgebracht. Doch Ragnaron starb noch auf dem Schlachtfeld. Er wurde in Helms "
+"Klamm, seiner Festung, begraben. Ein Legende behauptet das Epona noch lebte "
+"und von Ragnarons Geist begleitet würde, aber das ist nur eine Legende."
+
+#: View/About/militaryRanks.html.php:3
 msgid "Military ranks"
 msgstr "Militärische Ränge"
 
-#: View/About/about.html.php:36
+#: View/About/militaryRanks.html.php:5
 msgid "Ground team"
 msgstr "Boden Team"
 
-#: View/About/about.html.php:38
+#: View/About/militaryRanks.html.php:7
 msgid "Recruit"
 msgstr "Rekrut"
 
-#: View/About/about.html.php:40
+#: View/About/militaryRanks.html.php:9
 msgid "Soldier"
 msgstr "Soldat"
 
-#: View/About/about.html.php:41
+#: View/About/militaryRanks.html.php:10
 msgid "Get and perform commands."
 msgstr "Erhält Befehle und führt diese aus."
 
-#: View/About/about.html.php:43
+#: View/About/militaryRanks.html.php:12
 msgid "Instructor"
 msgstr "Ausbildner"
 
-#: View/About/about.html.php:44
+#: View/About/militaryRanks.html.php:13
 msgid "Instructs recruits and special forces."
 msgstr "Bildet Rekruten und Spezialeinheiten aus."
 
-#: View/About/about.html.php:46
+#: View/About/militaryRanks.html.php:15
 msgid "Driver"
 msgstr "Fahrer"
 
-#: View/About/about.html.php:47
+#: View/About/militaryRanks.html.php:16
 msgid "Drives vehicles."
 msgstr "Fährt Fahrzeuge."
 
-#: View/About/about.html.php:49
+#: View/About/militaryRanks.html.php:18
 msgid "Corporal"
 msgstr "Korporal"
 
-#: View/About/about.html.php:50
+#: View/About/militaryRanks.html.php:19
 msgid "Get and perform commands from a squad leader."
 msgstr "Erhält Befehle von einem Truppführer und führt diese aus."
 
-#: View/About/about.html.php:52
+#: View/About/militaryRanks.html.php:21
 msgid "Sergeant"
 msgstr "Sergeant"
 
-#: View/About/about.html.php:53
+#: View/About/militaryRanks.html.php:22
 msgid "Squad leader for squads up to 10 man."
 msgstr "Führt Trupps von bis zu 10 Mann."
 
-#: View/About/about.html.php:55
+#: View/About/militaryRanks.html.php:24
 msgid "Adjutant"
 msgstr "Adjutant"
 
-#: View/About/about.html.php:56
+#: View/About/militaryRanks.html.php:25
 msgid "Leading assistant."
 msgstr "Führungsgehilfe."
 
-#: View/About/about.html.php:58
+#: View/About/militaryRanks.html.php:27
 msgid "Lieutenant"
 msgstr "Leutnant"
 
-#: View/About/about.html.php:59
+#: View/About/militaryRanks.html.php:28
 msgid "Platoon commander for platoons up to 4 companies with 40 man."
 msgstr "Führt einen Zug aus 4 Trupps mit bis zu 40 Mann."
 
-#: View/About/about.html.php:61
+#: View/About/militaryRanks.html.php:30
 msgid "Captain"
 msgstr "Hauptmann"
 
-#: View/About/about.html.php:62
+#: View/About/militaryRanks.html.php:31
 msgid ""
 "Leads companies, artillery or air defences with 4 platoons up to 160 man."
 msgstr ""
 "Leitet eine Kompanien, Artillerien oder Flugabwehr Einheiten bestehend aus 4 "
 "Zügen mit bis zu 160 Mann."
 
-#: View/About/about.html.php:64
+#: View/About/militaryRanks.html.php:33
 msgid "Colonel"
 msgstr "Oberst"
 
-#: View/About/about.html.php:65
+#: View/About/militaryRanks.html.php:34
 msgid "Leads battalions with 4 companies up to 640 man."
 msgstr "Führt ein Bataillon aus 4 Kompanien mit bis zu 640 Mann."
 
-#: View/About/about.html.php:67
+#: View/About/militaryRanks.html.php:36
 msgid "Regiment leader"
 msgstr "Regiment Führer"
 
-#: View/About/about.html.php:68
+#: View/About/militaryRanks.html.php:37
 msgid "Leads regiment with 4 battalions up to 2560 man."
 msgstr "Führt ein Regiment aus 4 Bataillonen mit bis zu 2560 Mann."
 
-#: View/About/about.html.php:70
+#: View/About/militaryRanks.html.php:39
 msgid "Commandant"
 msgstr "Kommandant"
 
-#: View/About/about.html.php:71
+#: View/About/militaryRanks.html.php:40
 msgid "Leads all units in a specified territory up to a planet."
 msgstr ""
 "Führt alle Einheiten in einem zugewiesenen Bereich in der Grösse von bis zu "
 "einem Planeten."
 
-#: View/About/about.html.php:73 View/About/about.html.php:84
+#: View/About/militaryRanks.html.php:42 View/About/militaryRanks.html.php:53
 msgid "Commander"
 msgstr "Commander"
 
-#: View/About/about.html.php:74
+#: View/About/militaryRanks.html.php:43
 msgid "Leads all units in a system."
 msgstr "Führt alle Einheiten in einem System."
 
-#: View/About/about.html.php:76
+#: View/About/militaryRanks.html.php:45
 msgid "Air support"
 msgstr "Lufteinheiten"
 
-#: View/About/about.html.php:78
+#: View/About/militaryRanks.html.php:47
 msgid "Gunner"
 msgstr "Kanonier"
 
-#: View/About/about.html.php:79
+#: View/About/militaryRanks.html.php:48
 msgid "Hunter pilot"
 msgstr "Jägerpilot"
 
-#: View/About/about.html.php:80
+#: View/About/militaryRanks.html.php:49
 msgid "Cruiser Pilot"
 msgstr "Kreuzerpilot"
 
-#: View/About/about.html.php:81
+#: View/About/militaryRanks.html.php:50
 msgid "Star Destroyer Pilot"
 msgstr "Sternzerstörerpilot"
 
-#: View/About/about.html.php:82
+#: View/About/militaryRanks.html.php:51
 msgid "Super Star Destroyer Pilot"
 msgstr "Supersternzerstörerpilot"
 
-#: View/About/about.html.php:83
+#: View/About/militaryRanks.html.php:52
 msgid "Death Star Pilot"
 msgstr "Todessternpilot"
 
-#: View/About/about.html.php:85
+#: View/About/militaryRanks.html.php:54
 msgid "Leads his own ship."
 msgstr "Leitet sein eigenes Schiff."
 
-#: View/About/about.html.php:86
+#: View/About/militaryRanks.html.php:55
 msgid "Fleet Commander"
 msgstr "Flottenkommandant"
 
-#: View/About/about.html.php:87
+#: View/About/militaryRanks.html.php:56
 msgid "Leads the whole fleet."
 msgstr "Leitet die gesamte Flotte"
 
-#: View/About/about.html.php:89
+#: View/About/militaryRanks.html.php:58
 msgid "Superordinate "
 msgstr "Übergeordnet "
 
-#: View/About/about.html.php:91
+#: View/About/militaryRanks.html.php:60
 msgid "Strategist"
 msgstr "Stratege"
 
-#: View/About/about.html.php:92
+#: View/About/militaryRanks.html.php:61
 msgid "Develops strategies for all units."
 msgstr "Entwickelt Strategien für sämtliche Einheiten."
 
-#: View/About/about.html.php:93 View/About/about.html.php:114
-msgid "Emperor"
-msgstr "Imperator"
-
-#: View/About/about.html.php:94
+#: View/About/militaryRanks.html.php:63
 msgid "Direct leader of the army."
 msgstr "Direkter Befehlshaber der Armee."
-
-#: View/About/about.html.php:100
-msgid "Delegates"
-msgstr "Abgeordneter"
-
-#: View/About/about.html.php:101
-msgid "Peace negotiations, etc."
-msgstr "Friedensverhandlungen usw."
-
-#: View/About/about.html.php:102
-msgid "Head of Industry"
-msgstr "Leiter Industrie"
-
-#: View/About/about.html.php:103
-msgid "Head of health care"
-msgstr "Leiter Gesundheitswesen"
-
-#: View/About/about.html.php:104
-msgid "Head of propaganda"
-msgstr "Leiter Propaganda"
-
-#: View/About/about.html.php:105
-msgid "Head of research"
-msgstr "Leiter Forschung"
-
-#: View/About/about.html.php:106
-msgid "Head of finance"
-msgstr "Leiter Finanzwesen"
-
-#: View/About/about.html.php:107
-msgid "Head of military intelligence"
-msgstr "Leiter Nachrichtendienst"
-
-#: View/About/about.html.php:108
-msgid "2. deputy"
-msgstr "2. Stellvertreter"
-
-#: View/About/about.html.php:109
-msgid "On-messages the 1. deputy."
-msgstr "Vertritt den 1. Stellvertreter."
-
-#: View/About/about.html.php:110
-msgid "1. deputy"
-msgstr "1. Stellvertreter"
-
-#: View/About/about.html.php:111
-msgid "On-messages the emperor."
-msgstr "Vertritt den Imperator."
-
-#: View/About/about.html.php:112
-msgid "Emperor's right hand"
-msgstr "Rechte Hand des Imperators"
-
-#: View/About/about.html.php:113
-msgid "Only the emperor has a higher force than the emperor's right hand."
-msgstr "Nur der Imperator hat mehr Macht als die rechte Hand des Imperators."
 
 #: View/Games/games.html.php:7 View/Layout/layout.html.php:73
 msgid "Games"
