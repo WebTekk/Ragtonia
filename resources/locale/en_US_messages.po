@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: en_EN_messages\n"
+"POT-Creation-Date: 2017-06-26 19:48+0200\n"
+"PO-Revision-Date: 2017-06-26 19:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ../../src/View\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;.\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: About/about.html.php:8 Layout/layout.html.php:78
+msgid "About the Empire"
+msgstr ""
+
+#: About/about.html.php:17
+msgid "Form of government"
+msgstr ""
+
+#: About/about.html.php:20
+msgid "Military"
+msgstr ""
+
+#: About/about.html.php:24 About/government.html.php:3
+msgid "Government"
+msgstr ""
+
+#: About/about.html.php:28 About/history.html.php:3
+msgid "History"
+msgstr ""
+
+#: About/formOfGovernment.html.php:3
+msgid "Ragtonia is an empire with an emperor in perpetuity."
+msgstr ""
+
+#: About/government.html.php:5
+msgid "Delegates"
+msgstr ""
+
+#: About/government.html.php:6
+msgid "Peace negotiations, etc."
+msgstr ""
+
+#: About/government.html.php:7
+msgid "Head of Industry"
+msgstr ""
+
+#: About/government.html.php:8
+msgid "Head of health care"
+msgstr ""
+
+#: About/government.html.php:9
+msgid "Head of propaganda"
+msgstr ""
+
+#: About/government.html.php:10
+msgid "Head of research"
+msgstr ""
+
+#: About/government.html.php:11
+msgid "Head of finance"
+msgstr ""
+
+#: About/government.html.php:12
+msgid "Head of military intelligence"
+msgstr ""
+
+#: About/government.html.php:13
+msgid "2. deputy"
+msgstr ""
+
+#: About/government.html.php:14
+msgid "On-messages the 1. deputy."
+msgstr ""
+
+#: About/government.html.php:15
+msgid "1. deputy"
+msgstr ""
+
+#: About/government.html.php:16
+msgid "On-messages the emperor."
+msgstr ""
+
+#: About/government.html.php:17
+msgid "Emperor's right hand"
+msgstr ""
+
+#: About/government.html.php:18
+msgid "Only the emperor has a higher force than the emperor's right hand."
+msgstr ""
+
+#: About/government.html.php:19 About/militaryRanks.html.php:62
+msgid "Emperor"
+msgstr ""
+
+#: About/history.html.php:4
+msgid "The legend of Ragnaron the 1st"
+msgstr ""
+
+#: About/history.html.php:6
+msgid "historyOfRagnaronTextOne"
+msgstr ""
+"Ragnaron the 1st was a verry smart King which made plans because of the "
+"oppression from Orion to end the war against Orion for ever. The problem "
+"was, that Orion would exterminate them completely if they would lose. "
+"Ragnaron decided to hurt Orion just that much, that Ragtonia would have "
+"enough time to build a bigger army. So he've made this war strategie:"
+
+#: About/history.html.php:8
+msgid "historyOfRagnaronTextTwo"
+msgstr ""
+"In this night, the King himselve encouraged his folks with the words:\n"
+"\n"
+"\"Sons and daughters Ragtonias, my brothers and sisters!\n"
+"I see the same fear in your eys which dispaired me, too.\n"
+"The day might come when the bravery of the humans expires because of we "
+"betray our camerads and all friendships will break.\n"
+"But this day is still far!\n"
+"The hour of wolves and smashing shields, when the era of the humans goes "
+"down roaring.\n"
+"But this day is still far!\n"
+"Tomorow we will fight!\n"
+"For everything you love, on the earth, I'll tell you, withstand humans of "
+"Ragtonia!\"\n"
+"\n"
+"\n"
+"Early in the next morning, Ragnaron the 1st rode alone on his horse Epona. "
+"On their way they saw a emissary who told them, that all other troops were "
+"ready. Arrived on the canyon, the king stopped and looked down to the camp "
+"and as soon as the first sunbeams climbed the trees, he rushed down the "
+"canyon to the enemy troops. When the soldiers of Orion saw, that the king "
+"himselve was fighting, they attacked, too. They hoped, to hurt and defeate "
+"Ragtonia with the death of their king. Ragnaron threw his lance to a cliff "
+"and with its burst, the other troops Ragtonia's knowed, that they have to "
+"attack. They attacked from every site. The troops of Orion where verry "
+"suprised. The battle went three days and three nights. There were fancy "
+"platoons on both sites. When some men of Orion began to roll heavy, burning "
+"barrels at the men of Ragtonia, Ragnaron jumped of Epona to stop one of the "
+"barrels from crushing a whole group of his soldiers. It rolled over him and "
+"slowed down until it finally stopped. But Ragnaron the 1st was so weakened "
+"that he had to carry himself on the back of Epona to not fall down. Then "
+"came the leader of Orion and challenged him. After a heavy fight, Ragnaron "
+"defeated him and finally took him captive. But the leader pushed his sword "
+"into Ragnaron's chest. Then he was immediately killed by angry men. But "
+"Ragnaron still died on the battlefield. He was buried in Helms Klamm, his "
+"fortress. A legend claims that Epona still lived and was accompanied by "
+"Ragnaron's spirit, but that is only a legend."
+
+#: About/militaryRanks.html.php:3
+msgid "Military ranks"
+msgstr ""
+
+#: About/militaryRanks.html.php:5
+msgid "Ground team"
+msgstr ""
+
+#: About/militaryRanks.html.php:7
+msgid "Recruit"
+msgstr ""
+
+#: About/militaryRanks.html.php:9
+msgid "Soldier"
+msgstr ""
+
+#: About/militaryRanks.html.php:10
+msgid "Get and perform commands."
+msgstr ""
+
+#: About/militaryRanks.html.php:12
+msgid "Instructor"
+msgstr ""
+
+#: About/militaryRanks.html.php:13
+msgid "Instructs recruits and special forces."
+msgstr ""
+
+#: About/militaryRanks.html.php:15
+msgid "Driver"
+msgstr ""
+
+#: About/militaryRanks.html.php:16
+msgid "Drives vehicles."
+msgstr ""
+
+#: About/militaryRanks.html.php:18
+msgid "Corporal"
+msgstr ""
+
+#: About/militaryRanks.html.php:19
+msgid "Get and perform commands from a squad leader."
+msgstr ""
+
+#: About/militaryRanks.html.php:21
+msgid "Sergeant"
+msgstr ""
+
+#: About/militaryRanks.html.php:22
+msgid "Squad leader for squads up to 10 man."
+msgstr ""
+
+#: About/militaryRanks.html.php:24
+msgid "Adjutant"
+msgstr ""
+
+#: About/militaryRanks.html.php:25
+msgid "Leading assistant."
+msgstr ""
+
+#: About/militaryRanks.html.php:27
+msgid "Lieutenant"
+msgstr ""
+
+#: About/militaryRanks.html.php:28
+msgid "Platoon commander for platoons up to 4 companies with 40 man."
+msgstr ""
+
+#: About/militaryRanks.html.php:30
+msgid "Captain"
+msgstr ""
+
+#: About/militaryRanks.html.php:31
+msgid ""
+"Leads companies, artillery or air defences with 4 platoons up to 160 man."
+msgstr ""
+
+#: About/militaryRanks.html.php:33
+msgid "Colonel"
+msgstr ""
+
+#: About/militaryRanks.html.php:34
+msgid "Leads battalions with 4 companies up to 640 man."
+msgstr ""
+
+#: About/militaryRanks.html.php:36
+msgid "Regiment leader"
+msgstr ""
+
+#: About/militaryRanks.html.php:37
+msgid "Leads regiment with 4 battalions up to 2560 man."
+msgstr ""
+
+#: About/militaryRanks.html.php:39
+msgid "Commandant"
+msgstr ""
+
+#: About/militaryRanks.html.php:40
+msgid "Leads all units in a specified territory up to a planet."
+msgstr ""
+
+#: About/militaryRanks.html.php:42 About/militaryRanks.html.php:53
+msgid "Commander"
+msgstr ""
+
+#: About/militaryRanks.html.php:43
+msgid "Leads all units in a system."
+msgstr ""
+
+#: About/militaryRanks.html.php:45
+msgid "Air support"
+msgstr ""
+
+#: About/militaryRanks.html.php:47
+msgid "Gunner"
+msgstr ""
+
+#: About/militaryRanks.html.php:48
+msgid "Hunter pilot"
+msgstr ""
+
+#: About/militaryRanks.html.php:49
+msgid "Cruiser Pilot"
+msgstr ""
+
+#: About/militaryRanks.html.php:50
+msgid "Star Destroyer Pilot"
+msgstr ""
+
+#: About/militaryRanks.html.php:51
+msgid "Super Star Destroyer Pilot"
+msgstr ""
+
+#: About/militaryRanks.html.php:52
+msgid "Death Star Pilot"
+msgstr ""
+
+#: About/militaryRanks.html.php:54
+msgid "Leads his own ship."
+msgstr ""
+
+#: About/militaryRanks.html.php:55
+msgid "Fleet Commander"
+msgstr ""
+
+#: About/militaryRanks.html.php:56
+msgid "Leads the whole fleet."
+msgstr ""
+
+#: About/militaryRanks.html.php:58
+msgid "Superordinate "
+msgstr ""
+
+#: About/militaryRanks.html.php:60
+msgid "Strategist"
+msgstr ""
+
+#: About/militaryRanks.html.php:61
+msgid "Develops strategies for all units."
+msgstr ""
+
+#: About/militaryRanks.html.php:63
+msgid "Direct leader of the army."
+msgstr ""
+
+#: Games/games.html.php:7 Layout/layout.html.php:73
+msgid "Games"
+msgstr ""
+
+#: Index/index.html.php:10
+msgid "Welcome to Ragtonia!"
+msgstr ""
+
+#: Layout/layout.html.php:68
+msgid "Home"
+msgstr ""
+
+#: Layout/layout.html.php:86
+msgid "Language"
+msgstr ""
+
+#: Layout/layout.html.php:88
+msgid "German"
+msgstr ""
+
+#: Layout/layout.html.php:89
+msgid "English"
+msgstr ""
